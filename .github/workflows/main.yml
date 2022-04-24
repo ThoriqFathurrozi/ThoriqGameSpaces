@@ -40,5 +40,5 @@ deploy:
       with:
         args: deploy --only hosting
       env:
-        FIREBASE_TOKEN: ${{ }}
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
       
