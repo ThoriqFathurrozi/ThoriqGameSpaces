@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Space</title>
+    <link rel="stylesheet" href="css/style-main.css" />
+    <!-- materials -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Nunito:wght@600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/9d8d81b209.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <img src="img/hero.jpg" alt="" class="hero" />
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="logo">
+          <img src="img/try-logo.png" alt="" />
+          <h2>
+            Thoriq <br />
+            Game Space
+          </h2>
+        </div>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#game">Game</a>
+          <a href="#about">About</a>
+        </div>
+        <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="one">
+        <div class="cont">
+          <h1>CHECK MY NEW <br /><span>GAME</span></h1>
+          <a href="">
+            <i class="fa-solid fa-circle-play"></i>
+            <h3>Go Play</h3>
+          </a>
+        </div>
+      </section>
+      <section class="two" id="game">
+        <div class="cont">
+          <div class="title">
+            <h3>Game</h3>
+          </div>
+          <div class="game-box">
+            <div class="game-container">
+              <div class="icon">
+                <i class="fa-solid fa-repeat"></i>
+                <h2>
+                  Flip Card <br />
+                  Game
+                </h2>
+              </div>
+              <a class="link" href="index-flip-card.html">
+                <i class="fa-solid fa-circle-play"></i>
+                <h3>Play</h3>
+              </a>
+            </div>
+            <div class="game-container">
+              <div class="icon">
+                <i class="fa-solid fa-volleyball"></i>
+                <h2>
+                  Coloron <br />
+                  Game
+                </h2>
+              </div>
+              <a class="link" href="index-coloron.html">
+                <i class="fa-solid fa-circle-play"></i>
+                <h3>Play</h3>
+              </a>
+            </div>
+            <div class="game-container">
+              <div class="icon">
+                <i class="fa-solid fa-staff-aesculapius"></i>
+                <h2>
+                  snake <br />
+                  Game
+                </h2>
+              </div>
+              <a class="link" href="index-snake.html">
+                <i class="fa-solid fa-circle-play"></i>
+                <h3>Play</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="three" id="about">
+        <div class="cont">
+          <div class="content">
+            <div class="desc">
+              <h2>HELLO I'm</h2>
+              <h4>Thoriq Fathurrozi</h4>
+              <p>
+                Saya berusia 17 tahun, saat ini berstatus sebagai pelajar.
+                Coding adalah kegiatan yang menjadi hobi saya sejak 2021, dan
+                menjadi Fullstak Developer di Google merupakan impian saya di
+                masa depan. Saya akan mengusahakan yang terbaik untuk menggapai
+                mimpi saya, karena saya percaya bahwa usaha takkan pernah
+                mengkhianati hasil.
+              </p>
+              <p>
+                Follow your heart, chase your dreams, and enjoy every process.
+                Katakan pada dunia bahwa kamu bisa, kamu hebat!
+              </p>
+              <div class="link-more">
+                <a href="index-about.html"><span>Selengkapnya</span></a>
+              </div>
+            </div>
+            <div class="pic-icon">
+              <div class="aicon">
+                <div class="numb pen"></div>
+                <div class="icon-back">
+                  <i class="fa-solid fa-pen-nib"></i>
+                </div>
+                <h6>Design</h6>
+              </div>
+              <div class="aicon">
+                <div class="numb code"></div>
+                <div class="icon-back">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <h6>Coding</h6>
+              </div>
+              <div class="aicon">
+                <div class="numb light"></div>
+                <div class="icon-back">
+                  <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <h6>
+                  Problem <br />
+                  Solving
+                </h6>
+              </div>
+              <div class="aicon">
+                <div class="numb comment"></div>
+                <div class="icon-back">
+                  <i class="fa-solid fa-comment-dots"></i>
+                </div>
+                <h6>speaking</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h6>&copy;copyright thoriq fathurrozi</h6>
+      <h6>created with <i class="fa-solid fa-heart"></i> by thoriq_frrzy</h6>
+    </footer>
+    <script src="js/main.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCQ7LW4QfwAYvknU99I8HZrFCJw07gk0Nw",
+        authDomain: "thoriqgamespaces.firebaseapp.com",
+        projectId: "thoriqgamespaces",
+        storageBucket: "thoriqgamespaces.appspot.com",
+        messagingSenderId: "418418317398",
+        appId: "1:418418317398:web:eb8273670c0b35496643f7",
+        measurementId: "G-CSQD9BPSLD",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>

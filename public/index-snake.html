@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style-snake.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <div class="back-button">
+      <a href="Index-main.html"><span>Back</span></a>
+    </div>
+    <div class="container noselect">
+      <div class="wrapper">
+        <button id="replay">
+          <i class="bx bx-refresh"></i>
+          RESTART
+        </button>
+        <div id="canvas"></div>
+        <div id="ui">
+          <h2>SCORE</h2>
+          <span id="score">00</span>
+        </div>
+        <div class="mobile-controller">
+          <button id="btnArrowUp"><i class="bx bxs-up-arrow"></i></button>
+          <button id="btnArrowRight"><i class="bx bxs-right-arrow"></i></button>
+          <button id="btnArrowDown"><i class="bx bxs-down-arrow"></i></button>
+          <button id="btnArrowLeft"><i class="bx bxs-left-arrow"></i></button>
+        </div>
+      </div>
+      <div id="author">
+        <h1>SNAKE</h1>
+        <span>by Thoriq</span>
+      </div>
+    </div>
+    <script src="js/main-snake.js"></script>
+  </body>
+</html>

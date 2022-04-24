@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2d42ff;
+  color: #f7f7f9ff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.back-button {
+  position: absolute;
+  top: 1.4em;
+  left: 1.4em;
+  padding: 10px 20px;
+  border-radius: 60px;
+  background: linear-gradient(145deg, #2e3047, #27293b);
+  -webkit-box-shadow: 22px 22px 26px #252638, -22px -22px 26px #31344c;
+          box-shadow: 22px 22px 26px #252638, -22px -22px 26px #31344c;
+}
+
+.back-button h2 {
+  font-size: 0.9em;
+}
+
+.back-button a {
+  text-decoration: none;
+  color: #f7f7f9ff;
+}
+
+main section {
+  padding: 5em 5% 0 5%;
+}
+
+main .first-section h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 9;
+}
+
+main .first-section .cont-text-effect {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+main .first-section .cont-text-effect .static-text {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+main .first-section .cont-text-effect .dynamic-text {
+  margin-left: 5px;
+  width: 150px;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+main .first-section .cont-text-effect .dynamic-text li {
+  list-style: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #e86a92ff;
+  position: relative;
+  top: 0;
+  -webkit-animation: slide 6s steps(4) infinite;
+          animation: slide 6s steps(4) infinite;
+}
+
+main .first-section .cont-text-effect .dynamic-text li span {
+  position: relative;
+}
+
+main .first-section .cont-text-effect .dynamic-text li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #2b2d42ff;
+  border-left: 2px solid #e86a92ff;
+  -webkit-animation: typing 1.5s steps(10) infinite;
+          animation: typing 1.5s steps(10) infinite;
+}
+
+main .second-section {
+  padding-top: 1.5em;
+}
+
+main .second-section .description {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20vw 1fr;
+      grid-template-columns: 20vw 1fr;
+}
+
+main .second-section .description .hero-img img {
+  width: 230px;
+  height: 300px;
+}
+
+@-webkit-keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -20px 0 20px;
+  }
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -20px 0 20px;
+  }
+}
+
+@-webkit-keyframes slide {
+  100% {
+    top: -100px;
+  }
+}
+
+@keyframes slide {
+  100% {
+    top: -100px;
+  }
+}
+/*# sourceMappingURL=style-about.css.map */
