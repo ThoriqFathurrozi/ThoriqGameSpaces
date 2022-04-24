@@ -23,7 +23,7 @@ jobs:
       with:
         name: Public
         path: Public
-deploy:
+ deploy:
   name: Deploy
   needs: build
   runs-on: ubuntu-latest
